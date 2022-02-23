@@ -1,0 +1,20 @@
+details {
+    font: 13px "Open Sans", Calibri, sans-serif;
+}
+
+details > summary {
+    padding: 2px 2px;
+    background-color: #ddd;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+details[open] > summary {
+    background-color: #ccf;
+    width: 150px;
+    position: relative;
+
+}
